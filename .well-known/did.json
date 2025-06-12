@@ -1,0 +1,48 @@
+{
+  "id": "did:web:contosohelpdesk.co.uk",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:contosohelpdesk.co.uk"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://contosohelpdesk.co.uk/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/1f38447f-79e1-4cca-afcf-69e0a86606b9"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#eebdc4d3e1e746ed99e136cb3911cc77vcSigningKey-ba689",
+      "controller": "did:web:contosohelpdesk.co.uk",
+      "type": "JsonWebKey2020",
+      "publicKeyJwk": {
+        "crv": "P-256",
+        "kty": "EC",
+        "x": "_g0rpq45nsUIVFXI_q3hTyKHxAqGjdmJz6sLbGagwEc",
+        "y": "-AnIJXp22kl54YCALDpl0oki-g0icGKSijSM0TwF4qk"
+      }
+    }
+  ],
+  "authentication": [
+    "#eebdc4d3e1e746ed99e136cb3911cc77vcSigningKey-ba689"
+  ],
+  "assertionMethod": [
+    "#eebdc4d3e1e746ed99e136cb3911cc77vcSigningKey-ba689"
+  ]
+}
