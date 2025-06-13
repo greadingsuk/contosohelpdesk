@@ -28,21 +28,21 @@
   ],
   "verificationMethod": [
     {
-      "id": "#eebdc4d3e1e746ed99e136cb3911cc77vcSigningKey-ba689",
+      "id": "#4dfc4e6865ae4a368b9bf43b9ab95e85vcSigningKey-a4ae8",
       "controller": "did:web:contosohelpdesk.co.uk",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "crv": "P-256",
         "kty": "EC",
-        "x": "_g0rpq45nsUIVFXI_q3hTyKHxAqGjdmJz6sLbGagwEc",
-        "y": "-AnIJXp22kl54YCALDpl0oki-g0icGKSijSM0TwF4qk"
+        "x": "ubWQFEj6luZGfKZG196cNOc4F-5LEAcwLh93Jho26U0",
+        "y": "uTRIXX3hQd9O_QfYWDyxxxS8hzo2Tx_hYWTVTJrxfVQ"
       }
     }
   ],
   "authentication": [
-    "#eebdc4d3e1e746ed99e136cb3911cc77vcSigningKey-ba689"
+    "#4dfc4e6865ae4a368b9bf43b9ab95e85vcSigningKey-a4ae8"
   ],
   "assertionMethod": [
-    "#eebdc4d3e1e746ed99e136cb3911cc77vcSigningKey-ba689"
+    "#4dfc4e6865ae4a368b9bf43b9ab95e85vcSigningKey-a4ae8"
   ]
 }
